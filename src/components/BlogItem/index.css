@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.blog-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 1px solid #9aa5b1;
+}
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #12022f;
+}
+.date {
+  font-size: 20px;
+  font-weight: 600;
+  color: #616e7c;
+}
+.description {
+  font-size: 20px;
+  color: #616e7c;
+}
